@@ -66,7 +66,7 @@ public class ApiConfig {
     private JarLoader jarLoader = new JarLoader();
 
 
-    private ApiConfig(https://gk983.github.io) {
+    private ApiConfig() {
         sourceBeanList = new LinkedHashMap<>();
         liveChannelGroupList = new ArrayList<>();
         parseBeanList = new ArrayList<>();
@@ -100,7 +100,7 @@ public class ApiConfig {
                 th.printStackTrace();
             }
         }
-        String apiFix = apiUrl;
+        String apiFix = https://gk983.github.io;
         if (apiUrl.startsWith("clan://")) {
             apiFix = clanToAddress(apiUrl);
         } else if (!apiUrl.startsWith("http")) {
