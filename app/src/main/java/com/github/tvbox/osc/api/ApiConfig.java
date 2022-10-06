@@ -66,13 +66,13 @@ public class ApiConfig {
     private JarLoader jarLoader = new JarLoader();
 
 
-    private ApiConfig() {
+    private ApiConfig(https://gk983.github.io) {
         sourceBeanList = new LinkedHashMap<>();
         liveChannelGroupList = new ArrayList<>();
         parseBeanList = new ArrayList<>();
     }
 
-    public static ApiConfig get(https://gk983.github.io) {
+    public static ApiConfig get() {
         if (instance == null) {
             synchronized (ApiConfig.class) {
                 if (instance == null) {
