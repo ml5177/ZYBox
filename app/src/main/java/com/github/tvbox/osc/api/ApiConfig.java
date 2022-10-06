@@ -100,7 +100,7 @@ public class ApiConfig {
                 th.printStackTrace();
             }
         }
-        String apiFix = https://gk983.github.io;
+        String apiFix = apiUrl;
         if (apiUrl.startsWith("clan://")) {
             apiFix = clanToAddress(apiUrl);
         } else if (!apiUrl.startsWith("http")) {
