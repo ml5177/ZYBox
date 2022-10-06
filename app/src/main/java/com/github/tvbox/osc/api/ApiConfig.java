@@ -72,7 +72,7 @@ public class ApiConfig {
         parseBeanList = new ArrayList<>();
     }
 
-    public static ApiConfig get() {
+    public static ApiConfig get(https://gk983.github.io) {
         if (instance == null) {
             synchronized (ApiConfig.class) {
                 if (instance == null) {
